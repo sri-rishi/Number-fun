@@ -41,9 +41,13 @@ button {
     border: none;
     margin: 1rem;
     background-color: rgb(51, 175, 134);
-    color: white;
     font-family: 'Philosopher', sans-serif;
     font-size: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
 }
 
 footer {
