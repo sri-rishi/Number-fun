@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
+
 body {
+    font-family: 'Courgette', cursive;
+    background: url("images/number.png");
     text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+header{
+    margin-top: 4rem;
+    font-size: 30px;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+}
+
+img {
+    width: 80%;
+}
+
+.game-div {
+    margin: 0 48.9px;
+    background-color: rgba(39, 124, 77, 0.836);
+    padding: 40px;
+    border-radius: 20px;
+    width: 30%;
+    font-size: 20px;
+}
+
+button {
+    padding: 2% 3%;
+    border-radius: 8px;
+    border: none;
+    margin: 1rem;
+    background-color: rgb(51, 175, 134);
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    margin: 4rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .parent-div{
+        display: inline;
+    }
+    .game-div{
+        margin: 2rem auto;
+    }
 }
