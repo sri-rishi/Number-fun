@@ -26,6 +26,7 @@ img {
 }
 
 .game-div {
+    text-align: center;
     margin: 0 48.9px;
     background-color: rgba(39, 124, 77, 0.836);
     padding: 40px;
@@ -59,5 +60,7 @@ footer a {
     }
     .game-div{
         margin: 2rem auto;
+        font-size: 15px;
     }
+
 }
